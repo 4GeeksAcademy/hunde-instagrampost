@@ -1,0 +1,88 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.post {
+    width: 350px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.post-header i {
+    font-size: 24px;
+    color: #ff5722;
+}
+
+.post-user h3 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.post-user p {
+    margin: 0;
+    color: gray;
+    font-size: 14px;
+}
+
+.post-header .fas.fa-ellipsis-h {
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.post-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.post-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.post-actions .left-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.post-actions i {
+    cursor: pointer;
+}
+
+.post-likes {
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.post-likes strong {
+    font-weight: 700;
+}
+
+.post-caption {
+    padding: 10px;
+    font-size: 14px;
+    color: gray;
+    line-height: 1.4;
+}
